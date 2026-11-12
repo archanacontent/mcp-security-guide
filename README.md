@@ -16,7 +16,7 @@ Real Example - On 10 August 2026, one GitHub account opened 23 pull requests in 
 
 - **Part 1** - How MCP Works And Where Trust Breaks. Published.
 - **Part 2** - How Attacks Happen, with three documented cases. Published.
-- **Part 3** - Building A Secure Server. In progress.
+- **Part 3** - Building A Secure Server, with five tested example scripts. Published.
 - **Part 4** - Connecting Servers Safely. Planned.
 - **Part 5** - Running MCP Over Time. Planned.
 - **Part 6** - Reference. Planned.

@@ -66,3 +66,5 @@
 .tour-card button { font: inherit; font-weight: 700; cursor: pointer; border-radius: .25rem; padding: .35rem .8rem; border: 1.5px solid #b8f04a; background: transparent; color: #b8f04a; }
 .tour-card button.tour-next { background: #b8f04a; color: #0b1410; }
 .tour-card button.tour-skip { border-color: transparent; color: #cfdcd3; font-weight: 400; margin-left: auto; padding-right: 0; }
+.md-typeset .stats .card strong { font-size: .76rem; margin: .25rem 0 0; }
+.md-typeset .highlight span.filename { font-size: .66rem; }

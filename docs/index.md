@@ -29,7 +29,7 @@
 <div class="cards">
 <a class="card" href="how-mcp-works/roles/"><span class="num">PART 1</span><strong>How MCP Works And Where Trust Breaks</strong><span class="txt">You've been asked to approve MCP and can't yet picture what connects to what.</span></a>
 <a class="card" href="how-attacks-happen/deadbugz/"><span class="num">PART 2</span><strong>How Attacks Happen</strong><span class="txt">You want proof from documented cases before you set policy.</span></a>
-<div class="card"><span class="soon">Coming Next</span><span class="num">PART 3</span><strong>Building A Secure Server</strong><span class="txt">Your team writes its own server and has to get authorization, tokens and logging right.</span></div>
+<a class="card" href="building-a-secure-server/authorization/"><span class="num">PART 3</span><strong>Building A Secure Server</strong><span class="txt">Your team writes its own server and has to get authorization, tokens and logging right.</span></a>
 <div class="card"><span class="soon">Coming Next</span><span class="num">PART 4</span><strong>Connecting Servers Safely</strong><span class="txt">A developer wants to install a server that someone else built.</span></div>
 <div class="card"><span class="soon">Coming Next</span><span class="num">PART 5</span><strong>Running MCP Over Time</strong><span class="txt">A server you approved last month may have changed since.</span></div>
 <div class="card"><span class="soon">Coming Next</span><span class="num">PART 6</span><strong>Reference</strong><span class="txt">You need the OWASP mapping, a checklist or a term defined.</span></div>

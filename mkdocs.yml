@@ -67,3 +67,8 @@ nav:
       - The WhatsApp Demonstration, April 2025: how-attacks-happen/whatsapp-demonstration.md
       - The Fake Postmark Package, September 2025: how-attacks-happen/fake-postmark-package.md
       - The Cases Against OWASP's Beta List: how-attacks-happen/owasp-mapping.md
+  - Building A Secure Server:
+      - Authorization Under The 2026-07-28 Spec: building-a-secure-server/authorization.md
+      - Tokens And Scopes: building-a-secure-server/tokens-and-scopes.md
+      - Inputs, Outputs And State Handles: building-a-secure-server/inputs-outputs-state.md
+      - Logging After The July Change: building-a-secure-server/logging.md
