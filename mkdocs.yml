@@ -1,0 +1,54 @@
+site_name: Cybersecurity For AI Agents - MCP Security Guide
+site_description: A vendor-neutral guide to securing AI agents that connect to company systems through the Model Context Protocol (MCP), checked against specification revision 2026-07-28.
+site_author: Archana Panda
+site_url: https://archanacontent.github.io/mcp-security-guide/
+theme:
+  name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/shield-lock
+  palette:
+    scheme: slate
+    primary: black
+    accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - How MCP Works And Where Trust Breaks:
+      - 'The Three Roles: Host, Client, Server': how-mcp-works/roles.md
+      - Why The Model Reads Tool Definitions: how-mcp-works/tool-definitions.md
+      - What The Protocol Leaves To You: how-mcp-works/what-the-protocol-leaves.md
+  - How Attacks Happen:
+      - Deadbugz, August 2026: how-attacks-happen/deadbugz.md
+      - The WhatsApp Demonstration, April 2025: how-attacks-happen/whatsapp-demonstration.md
+      - The Fake Postmark Package, September 2025: how-attacks-happen/fake-postmark-package.md
+      - The Cases Against OWASP's Beta List: how-attacks-happen/owasp-mapping.md

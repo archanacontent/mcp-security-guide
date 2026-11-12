@@ -1,0 +1,51 @@
+:root { --amber: #2dd4bf; }
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b1020;
+  --md-code-bg-color: #131a2e;
+  --md-typeset-a-color: var(--amber);
+}
+.md-typeset h1 { font-weight: 700; letter-spacing: -0.01em; }
+.md-typeset .label {
+  display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--amber); margin-right: .4rem;
+}
+.md-typeset .lead { font-size: 1.02rem; line-height: 1.65; }
+.md-typeset .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .8rem; margin: 1rem 0; }
+.md-typeset .card {
+  border: 1px solid rgba(45,212,191,.28); border-radius: .5rem; padding: .9rem 1rem;
+  background: rgba(255,255,255,.03); display: block; color: inherit;
+}
+.md-typeset a.card:hover { border-color: var(--amber); background: rgba(45,212,191,.07); }
+.md-typeset .card .num { color: var(--amber); font-weight: 700; font-size: .7rem; letter-spacing: .08em; }
+.md-typeset .card strong { display: block; margin: .15rem 0 .3rem; font-size: .86rem; }
+.md-typeset .card span.txt { font-size: .74rem; opacity: .85; }
+.md-typeset .card .soon { float: right; font-size: .6rem; letter-spacing: .06em; text-transform: uppercase; opacity: .6; border: 1px solid currentColor; border-radius: 1rem; padding: 0 .4rem; }
+.md-typeset ol.steps { list-style: none; margin-left: 0; padding-left: 0; counter-reset: step; }
+.md-typeset ol.steps > li {
+  counter-increment: step; position: relative; margin: 0 0 .55rem 0; padding: .6rem .8rem .6rem 2.6rem;
+  border-left: 2px solid var(--amber); background: rgba(255,255,255,.03); border-radius: 0 .4rem .4rem 0;
+}
+.md-typeset ol.steps > li::before {
+  content: counter(step); position: absolute; left: .7rem; top: .6rem; width: 1.3rem; height: 1.3rem;
+  border-radius: 50%; background: var(--amber); color: #111; font-weight: 700; font-size: .7rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.md-typeset figure.diagram { max-width: 30rem; margin: 1.2rem auto; }
+.md-typeset figure.diagram svg { width: 100%; height: auto; }
+.dg-box { fill: rgba(255,255,255,.04); stroke: rgba(255,255,255,.35); stroke-width: 1.2; }
+.dg-host { fill: rgba(45,212,191,.06); stroke: var(--amber); stroke-width: 1.5; }
+.dg-text { fill: var(--md-default-fg-color); font: 600 13px Inter, sans-serif; }
+.dg-sub { fill: var(--md-default-fg-color--light); font: 400 11px Inter, sans-serif; }
+.dg-accent { fill: var(--amber); font: 700 11px Inter, sans-serif; letter-spacing: .06em; }
+.dg-line { stroke: var(--amber); stroke-width: 1.5; fill: none; }
+.md-typeset table:not([class]) th { color: var(--amber); }
+
+[data-md-color-scheme="slate"] { --md-accent-fg-color: #2dd4bf; }
+.md-header, .md-tabs { background-color: #0e1630; }
+.md-typeset table:not([class]) { border: 1px solid rgba(45,212,191,.45); border-collapse: collapse; }
+.md-typeset table:not([class]) th, .md-typeset table:not([class]) td { border: 1px solid rgba(255,255,255,.22); }
+.md-typeset table:not([class]) th { background: rgba(45,212,191,.10); }
+.md-typeset .label { font-size: .8rem; text-transform: none; letter-spacing: 0; margin-right: 0; }
+
+.md-typeset .stats { grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); }
+.md-typeset .stats .big { display: block; color: var(--amber); font-weight: 700; font-size: 1.5rem; line-height: 1.2; }
