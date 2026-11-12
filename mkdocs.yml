@@ -31,6 +31,10 @@ theme:
     - content.code.copy
     - content.tabs.link
     - toc.follow
+extra:
+  analytics:
+    provider: google
+    property: G-R5QPB9VQWB
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
