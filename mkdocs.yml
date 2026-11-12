@@ -10,9 +10,18 @@ theme:
   icon:
     logo: material/shield-lock
   palette:
-    scheme: slate
-    primary: black
-    accent: teal
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch To Day Mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch To Night Mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -24,6 +33,8 @@ theme:
     - toc.follow
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/tour.js
 markdown_extensions:
   - admonition
   - attr_list

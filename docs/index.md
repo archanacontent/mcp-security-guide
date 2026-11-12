@@ -1,6 +1,20 @@
-# Cybersecurity For AI Agents - MCP Security Guide
+<p class="eyebrow">MCP · Security Guide</p>
+
+# Cybersecurity For AI Agents
 
 <p class="lead" markdown>AI agents now reach company files, databases and internal tools through the Model Context Protocol, known as MCP. Its maintainers state in the <a href="https://modelcontextprotocol.io/specification/2026-07-28">specification</a> that MCP cannot enforce its own security principles at the protocol level. Whoever deploys it carries that duty.</p>
+
+[Start With How MCP Works](how-mcp-works/roles.md){ .md-button .md-button--primary }
+[Read The Real Cases](how-attacks-happen/deadbugz.md){ .md-button }
+
+<a href="#" id="tour-start" class="tour-link">New here? Take the 30-second tour</a>
+
+<div class="belt">
+<div><b>23</b><span>Pull requests opened in 74 minutes to spread one malicious MCP server</span></div>
+<div><b>3</b><span>Tool calls before that server changed its instructions</span></div>
+<div><b>15</b><span>Versions published before the fake Postmark package added a backdoor</span></div>
+<div><b>28 Jul 2026</b><span>MCP specification revision behind every protocol statement here</span></div>
+</div>
 
 ## The Problem
 

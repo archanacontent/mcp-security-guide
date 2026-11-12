@@ -1,0 +1,30 @@
+{
+  "storageKey": "mcp-security-guide-tour-seen",
+  "steps": [
+    {
+      "title": "Start With The Problem",
+      "text": "Three short blocks set out what changed, what breaks and one real example.",
+      "target": ["#the-problem"]
+    },
+    {
+      "title": "Pick Your Starting Point",
+      "text": "Each card opens with a situation. Choose the one closest to yours.",
+      "target": [".cards"]
+    },
+    {
+      "title": "Move Between Parts",
+      "text": "Open the menu to see every part of the guide and the pages inside it.",
+      "target": [".md-header__button[for='__drawer']", ".md-tabs__list"]
+    },
+    {
+      "title": "Check Any Claim",
+      "text": "Every named source is a link to the original report or to the MCP specification.",
+      "target": [".md-typeset .lead a"]
+    },
+    {
+      "title": "Switch Day And Night",
+      "text": "Use the toggle in the top bar to change between night and day mode.",
+      "target": ["form[data-md-component='palette']"]
+    }
+  ]
+}
